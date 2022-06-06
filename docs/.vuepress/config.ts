@@ -1,5 +1,5 @@
 import { defineUserConfig } from "@vuepress/cli";
-
+import { prismjsPlugin } from "@vuepress/plugin-prismjs";
 import theme from "./themeConfig";
 import searchPlugin from "vuepress2-plugin-full-text-search";
 export default defineUserConfig({
@@ -47,5 +47,10 @@ export default defineUserConfig({
 
   theme: theme,
 
-  plugins: [searchPlugin],
+  plugins: [
+    searchPlugin,
+    prismjsPlugin({
+      preloadLanguages: ["autohotkey", "go", "xml", "dart"],
+    }),
+  ],
 });
