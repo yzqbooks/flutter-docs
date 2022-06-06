@@ -1,0 +1,1 @@
+const e={key:"v-307d06b4",path:"/chapter10/turn_box.html",title:"10.3 \u7EC4\u5408\u5B9E\u4F8B\uFF1ATurnBox",lang:"zh-CN",frontmatter:{},excerpt:"",headers:[],git:{createdTime:1654491188e3,updatedTime:1654491188e3,contributors:[{name:"yzqdev",email:"yzqdev@outlook.com",commits:1}]},readingTime:{minutes:3.63,words:1090},filePathRelative:"chapter10/turn_box.md"};export{e as data};

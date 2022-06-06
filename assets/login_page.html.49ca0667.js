@@ -1,0 +1,1 @@
+const e={key:"v-1b48c2c6",path:"/chapter15/login_page.html",title:"15.7 \u767B\u5F55\u9875",lang:"zh-CN",frontmatter:{},excerpt:"",headers:[],git:{createdTime:1654491188e3,updatedTime:1654491188e3,contributors:[{name:"yzqdev",email:"yzqdev@outlook.com",commits:1}]},readingTime:{minutes:2.07,words:622},filePathRelative:"chapter15/login_page.md"};export{e as data};

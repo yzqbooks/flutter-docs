@@ -1,0 +1,1 @@
+const e={key:"v-5de7db0c",path:"/chapter12/",title:"Flutter \u6269\u5C55",lang:"zh-CN",frontmatter:{},excerpt:"",headers:[],git:{createdTime:1654491188e3,updatedTime:1654491188e3,contributors:[{name:"yzqdev",email:"yzqdev@outlook.com",commits:1}]},readingTime:{minutes:.04,words:13},filePathRelative:"chapter12/index.md"};export{e as data};

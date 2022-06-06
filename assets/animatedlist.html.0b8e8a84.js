@@ -1,0 +1,1 @@
+const t={key:"v-7c38c12a",path:"/chapter6/animatedlist.html",title:"6.5 AnimatedList",lang:"zh-CN",frontmatter:{},excerpt:"",headers:[],git:{createdTime:1654491188e3,updatedTime:1654491188e3,contributors:[{name:"yzqdev",email:"yzqdev@outlook.com",commits:1}]},readingTime:{minutes:2.35,words:706},filePathRelative:"chapter6/animatedlist.md"};export{t as data};

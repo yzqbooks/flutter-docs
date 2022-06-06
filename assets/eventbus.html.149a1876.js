@@ -1,0 +1,1 @@
+const e={key:"v-6fe6e0b0",path:"/chapter8/eventbus.html",title:"8.5 \u4E8B\u4EF6\u603B\u7EBF",lang:"zh-CN",frontmatter:{},excerpt:"",headers:[],git:{createdTime:1654491188e3,updatedTime:1654491188e3,contributors:[{name:"yzqdev",email:"yzqdev@outlook.com",commits:1}]},readingTime:{minutes:2.01,words:602},filePathRelative:"chapter8/eventbus.md"};export{e as data};
