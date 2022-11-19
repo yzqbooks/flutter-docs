@@ -4,12 +4,11 @@ export default sidebar({
   "/": [
     {
       text: "第二版序",
-      path: "/preface",
+      link: "preface",
     },
     {
       text: "第一章：起步",
-      path: "/chapter1/index",
-      collapsable: false,
+      collapsible: false,
       children: [
         "/chapter1/mobile_development_intro",
         "/chapter1/flutter_intro",
@@ -19,8 +18,8 @@ export default sidebar({
     },
     {
       text: "第二章：第一个Flutter应用",
-      path: "/chapter2/index",
-      collapsable: false,
+      
+      collapsible: false,
       children: [
         "/chapter2/first_flutter_app",
         "/chapter2/flutter_widget_intro",
@@ -34,8 +33,8 @@ export default sidebar({
     },
     {
       text: "第三章：基础组件",
-      path: "/chapter3/index",
-      collapsable: false,
+      
+      collapsible: false,
       children: [
         "/chapter3/text",
         "/chapter3/buttons",
@@ -47,8 +46,7 @@ export default sidebar({
     },
     {
       text: "第四章：布局类组件",
-      path: "chapter4/index.md",
-      collapsable: false,
+      collapsible: false,
       children: [
         "/chapter4/intro",
         "chapter4/constraints",
@@ -62,8 +60,7 @@ export default sidebar({
     },
     {
       text: "第五章：容器类组件",
-      path: "/chapter5/index",
-      collapsable: false,
+      collapsible: false,
       children: [
         "/chapter5/padding",
         "/chapter5/decoratedbox",
@@ -76,8 +73,7 @@ export default sidebar({
     },
     {
       text: "第六章：可滚动组件",
-      path: "/chapter6/index",
-      collapsable: false,
+      collapsible: false,
       children: [
         "/chapter6/intro",
         "/chapter6/single_child_scrollview",
@@ -95,8 +91,7 @@ export default sidebar({
     },
     {
       text: "第七章：功能型组件",
-      path: "/chapter7/index",
-      collapsable: false,
+      collapsible: false,
       children: [
         "/chapter7/willpopscope",
         "/chapter7/inherited_widget",
@@ -109,8 +104,7 @@ export default sidebar({
     },
     {
       text: "第八章：事件处理与通知",
-      path: "/chapter8/index",
-      collapsable: false,
+      collapsible: false,
       children: [
         "/chapter8/listener",
         "/chapter8/gesture",
@@ -122,8 +116,7 @@ export default sidebar({
     },
     {
       text: "第九章：动画",
-      path: "/chapter9/index",
-      collapsable: false,
+      collapsible: false,
       children: [
         "/chapter9/intro",
         "/chapter9/animation_structure",
@@ -136,8 +129,7 @@ export default sidebar({
     },
     {
       text: "第十章：自定义组件",
-      path: "/chapter10/index",
-      collapsable: false,
+      collapsible: false,
       children: [
         "/chapter10/intro",
         "/chapter10/combine",
@@ -151,8 +143,7 @@ export default sidebar({
     },
     {
       text: "第十一章：文件操作与网络请求",
-      path: "/chapter11/index",
-      collapsable: false,
+      collapsible: false,
       children: [
         "/chapter11/file_operation",
         "/chapter11/http",
@@ -165,14 +156,12 @@ export default sidebar({
     },
     {
       text: "第十二章：Flutter 扩展",
-      path: "/chapter12/index",
-      collapsable: false,
+      collapsible: false,
       children: ["/chapter12/package_and_plugin", "/chapter12/flutter_web"],
     },
     {
       text: "第十三章：国际化",
-      path: "/chapter13/index",
-      collapsable: false,
+      collapsible: false,
       children: [
         "/chapter13/multi_languages_support",
         "/chapter13/locallization_implement",
@@ -182,8 +171,7 @@ export default sidebar({
     },
     {
       text: "第十四章：Flutter核心原理",
-      path: "/chapter14/index",
-      collapsable: false,
+      collapsible: false,
       children: [
         "/chapter14/flutter_ui_system",
         "/chapter14/element_buildcontext",
@@ -197,7 +185,7 @@ export default sidebar({
     },
     {
       text: "第十五章：一个完整的Flutter应用",
-      collapsable: false,
+      collapsible: false,
       children: [
         "/chapter15/intro",
         "/chapter15/code_structure",

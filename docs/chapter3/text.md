@@ -1,4 +1,4 @@
-## 3.1 文本及样式
+# 3.1 文本及样式
 
 ### 3.1.1 Text
 
@@ -18,6 +18,7 @@ Text("Hello world",
   textScaleFactor: 1.5,
 );
 ```
+
 运行效果如图3-1所示：
 
 ![图3-1](../imgs/3-1.png)
@@ -107,7 +108,7 @@ Text.rich(TextSpan(
 ))
 ```
 
-- 上面代码中，我们通过 TextSpan 实现了一个基础文本片段和一个链接片段，然后通过`Text.rich ` 方法将`TextSpan` 添加到 Text 中，之所以可以这样做，是因为 Text 其实就是 RichText 的一个包装，而RichText 是可以显示多种样式(富文本)的 widget。
+- 上面代码中，我们通过 TextSpan 实现了一个基础文本片段和一个链接片段，然后通过`Text.rich` 方法将`TextSpan` 添加到 Text 中，之所以可以这样做，是因为 Text 其实就是 RichText 的一个包装，而RichText 是可以显示多种样式(富文本)的 widget。
 - `_tapRecognizer`，它是点击链接后的一个处理器（代码已省略），关于手势识别的更多内容我们将在后面单独介绍。
 
 ### 3.1.4 DefaultTextStyle
@@ -222,4 +223,3 @@ const textStyle = const TextStyle(
   fontFamily: 'Raleway',
 );
 ```
-

@@ -1,7 +1,7 @@
 import { defineUserConfig } from "@vuepress/cli";
 import { prismjsPlugin } from "@vuepress/plugin-prismjs";
 import theme from "./themeConfig";
-import searchPlugin from "vuepress2-plugin-full-text-search";
+import {searchProPlugin} from "vuepress-plugin-search-pro";
 export default defineUserConfig({
   base: "/flutter-docs/",
   dest: "./dist",
@@ -48,7 +48,9 @@ export default defineUserConfig({
   theme: theme,
 
   plugins: [
-    searchPlugin,
+    searchProPlugin({
+      indexContent:true
+    }),
     prismjsPlugin({
       preloadLanguages: ["autohotkey", "go", "xml", "dart"],
     }),
